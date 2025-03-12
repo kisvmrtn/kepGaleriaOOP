@@ -24,8 +24,8 @@ jobbGomb.addEventListener('click', () => {
 })
 
 balGomb.addEventListener('click', () => {
-    if (szamlalo === 0) {
-        szamlalo = KEPLISTA.length
+    if (szamlalo === 1) {
+        szamlalo = KEPLISTA.length-1
     }
     console.log(szamlalo)
     kozepElem.innerHTML = "";
