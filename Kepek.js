@@ -9,7 +9,7 @@ export class Kepek {
     }
     listaMegjelenit() {
         for (let i = 0; i < this.#lista.length; i++) {
-            const KEP = new Kep(this.#lista[i].kep, this.#lista[i].cim, this.szuloElem)
+            const KEP = new Kep(i, this.#lista[i].kep, this.#lista[i].cim, this.szuloElem)
         }
     }
 }

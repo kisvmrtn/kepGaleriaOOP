@@ -4,9 +4,13 @@ main {
     max-width: 1000px;
     margin: auto;
 }
+header {
+    margin: auto;
+}
 .felso {
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 button {
     width: 50px;
@@ -32,4 +36,5 @@ img {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin: auto;
 }
